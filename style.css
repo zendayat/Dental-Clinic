@@ -1,0 +1,117 @@
+html {
+    scroll-behavior: smooth;
+}
+#header,#About,#Services,#Testimonials,#contacts,#Doctors{
+    background-image: url(Images/bg2.jpeg);
+}
+#back-img{
+    position: absolute;
+    right: -5%;
+    scale: 110%;
+    top: 50px;
+    z-index: -1;
+}
+#navbar img{
+    width: 140px;
+    height: 70px;
+    border-radius: 20px;
+}
+#navbar  #a1::after{
+    position: absolute;
+    content: '';
+    width: 0px;
+    height: 3px;
+    border-radius: 14px;
+    background-color: rgb(3, 59, 133);
+    margin-left: -60px;
+    margin-top: 25px;
+    transition: 0.8s;
+}
+#navbar  #a2::after{
+    position: absolute;
+    content: '';
+    width: 0px;
+    height: 3px;
+    border-radius: 14px;
+    background-color: rgb(3, 59, 133);
+    margin-left: -70px;
+    margin-top: 25px;
+    transition: 0.8s;
+}
+#navbar  #a3::after{
+    position: absolute;
+    content: '';
+    width: 0px;
+    height: 3px;
+    border-radius: 14px;
+    background-color: rgb(3, 59, 133);
+    margin-left: -65px;
+    margin-top: 25px;
+    transition: 0.8s;
+}
+#navbar  #a4::after{
+    position: absolute;
+    content: '';
+    width: 0px;
+    height: 3px;
+    border-radius: 14px;
+    background-color: rgb(3, 59, 133);
+    margin-left: -85px;
+    margin-top: 25px;
+    transition: 0.8s;
+}
+#navbar  #a5::after{
+    position: absolute;
+    content: '';
+    width: 0px;
+    height: 3px;
+    border-radius: 14px;
+    background-color: rgb(3, 59, 133);
+    margin-left: -75px;
+    margin-top: 25px;
+    transition: 0.8s;
+}
+#navbar  #a1:hover::after{
+    width: 70px;
+    transition: 0.3s
+}
+#navbar  #a2:hover::after{
+    width: 70px;
+    transition: 0.3s
+}
+#navbar  #a3:hover::after{
+    width: 70px;
+    transition: 0.3s
+}
+#navbar  #a4:hover::after{
+    width: 70px;
+    transition: 0.3s
+}
+#navbar  #a5:hover::after{
+    width: 70px;
+    transition: 0.3s
+}
+/* .swiper_wrapper{
+    border-radius: 1.5rem;
+    margin: auto;
+    min-height: fit-content;
+    width: 70%;
+} */
+.swiper-slide {
+    
+  }
+.swiper-slides{
+    display: inline-block;
+    place-items: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.swiper-slides img{
+    margin-left: 500px;
+}
+#input1::placeholder, #input2::placeholder{
+    color: black;
+}
